@@ -23,6 +23,7 @@ scanf ("%f", &pib);
 printf ("ponto turistico %d", ponto turistico);
 printf ("entrar com ponto turistico\n");
 scanf ("%d", &ponto turistico);
+return 0
 
 
 
