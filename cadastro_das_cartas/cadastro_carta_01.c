@@ -1,14 +1,18 @@
 #include<stdio.h>
 
 int main (){
-char cidade [4] ="Rj";
-char nome [20] = "Rio de Janeiro";
+char pais [20] = "Brasil";
+char estado [20]  = "Rio de Janeiro";  
+char  codgcidade [4] ="R01";
+char nome [20] = "Guapimirim";
 int populacao = 500000;
 float area = 9092.63;
 double pib = 21920.30;
 int turismo = 8;
 
-printf ("codigo da cidade: %s\n", cidade);
+printf ("país: %s\n", pais);
+printf ("estado: %s\n", estado);
+printf ("codigo da cidade: %s\n",  codgcidade);
 printf ("nome: %s\n", nome);
 printf ("populacao da cidade: %d\n", populacao);
 printf ("area %.2f\n", area);
